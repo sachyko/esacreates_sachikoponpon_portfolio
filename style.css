@@ -1311,7 +1311,7 @@ dd {
 
 	.work-card {
 		max-width: 543px;
-		height: 600px;
+		height: 560px;
 		width: 100%;
 	}
 
@@ -1347,6 +1347,7 @@ dd {
 		flex-direction: column;
 		align-items: center;
 		gap: 12px;
+		margin-top: -30px;
 	}
 
 	.tag-list {
