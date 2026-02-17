@@ -1717,8 +1717,30 @@ dd {
 		border-radius: 10px;
 	}
 
+	.view-more-btn {
+		display: inline-block;
+		transition: transform 0.2s ease;
+	}
 	.view-more-btn img {
 		max-width: 91px;
+		height: auto;
+		display: block;
+		transition: transform 0.25s ease;
+	}
+
+	/* Button Animation Effect Code */
+
+	.view-more-btn:hover img {
+		transform: translateY(-4px) scale(1.05);
+		filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.2));
+	}
+
+	.view-more-btn:active img {
+		transform: translateY(2px) scale(0.97);
+	}
+
+	.view-more-btn:focus img {
+		filter: drop-shadow(0 0 8px rgba(127, 31, 14, 0.6));
 	}
 
 	/* TEXT */
