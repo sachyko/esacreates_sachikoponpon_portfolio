@@ -836,7 +836,7 @@ dd {
 .animated-link {
 	color: #3d0a05; /* normal text color */
 	font-weight: 600;
-	text-decoration: none; /* remove underline */
+	text-decoration: underline; /* remove underline */
 	transition: color 0.3s ease; /* smooth color change */
 	cursor: pointer; /* changes cursor on hover */
 }
@@ -927,13 +927,17 @@ dd {
 	font-family: "Playfair Display", serif;
 	overflow: hidden;
 }
+.site-scroll-container {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
 
 /* Header */
 .site-scroll-header {
 	display: flex;
 	align-items: center;
-
-	gap: 103px;
+	gap: 143px;
 	margin-bottom: 60px;
 }
 
@@ -947,8 +951,8 @@ dd {
 	flex: none;
 	height: 2px;
 	background-color: #7f1f0e;
-	width: 800px;
-	margin-top: 20px;
+	width: 600px;
+	margin-top: 12px;
 }
 
 /* Columns */
@@ -1366,6 +1370,18 @@ dd {
 		font-size: 24px;
 	}
 
+	.work-tag {
+		width: 100%;
+		max-width: 260px;
+		justify-content: center;
+
+		padding: 14px 0;
+		font-size: 16px;
+		font-weight: 600;
+
+		border-radius: 30px;
+	}
+
 	/* About Me Section */
 	/* About Me Section */
 
@@ -1540,7 +1556,7 @@ dd {
 	dt {
 		padding: 8px 16px;
 		border-radius: 20px;
-		font-weight: 700;
+		font-weight: 500;
 		text-align: left;
 		font-size: 16px;
 	}
@@ -1549,11 +1565,11 @@ dd {
 		margin: 0;
 		padding-left: 10px;
 		color: #3d0a05;
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.info-item dt {
-		width: 240px;
+		width: 200px;
 		text-align: center;
 		display: inline-block;
 	}
@@ -1568,6 +1584,7 @@ dd {
 	.points-title h2 {
 		margin: 0;
 		font-size: 18px;
+		white-space: nowrap;
 	}
 
 	.title-line {
@@ -1635,8 +1652,10 @@ dd {
 	.mobile-scroll-cards {
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 		align-items: center;
 		gap: 50px;
+		padding: 0 20px;
 	}
 
 	.mobile-scroll-card {
@@ -1665,13 +1684,14 @@ dd {
 	.mobile-scroll-header {
 		display: flex;
 		align-items: center;
-		gap: 40px;
+		gap: 20px;
 		margin-bottom: 60px;
 	}
 	.mobile-scroll-header h2 {
 		color: #3d0a05;
 		font-size: 18px;
 		margin: 0;
+		white-space: nowrap;
 	}
 
 	.header-line-mobile {
