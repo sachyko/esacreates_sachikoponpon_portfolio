@@ -1555,9 +1555,11 @@ dd {
 	.info-item {
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
+		justify-content: centeri;
+		align-items: center;
 		gap: 12px;
-		padding-bottom: 20px;
+		padding-bottom: 0;
+		border-bottom: none;
 	}
 
 	dt {
@@ -1570,14 +1572,15 @@ dd {
 
 	dd {
 		margin: 0;
-		padding-left: 10px;
+		padding-left: 4px;
 		color: #3d0a05;
 		font-size: 16px;
+		text-align: center;
 	}
 
 	.info-item dt {
-		width: 100%; /* full width background */
-		max-width: 200px;
+		width: 100%;
+		max-width: 240px;
 
 		text-align: center;
 		display: inline-block;
