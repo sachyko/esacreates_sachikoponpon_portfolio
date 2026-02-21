@@ -1576,7 +1576,9 @@ dd {
 	}
 
 	.info-item dt {
-		width: 200px;
+		width: 100%; /* full width background */
+		max-width: 200px;
+
 		text-align: center;
 		display: inline-block;
 	}
