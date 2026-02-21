@@ -712,7 +712,7 @@ Work Card Animation Styles .work-card {
 .breadcrumb {
 	/* font-family: "Playfair Display", serif; */
 	color: #3d0a05;
-	padding: 17px 40px;
+	padding: 10px 20px;
 	margin-bottom: 81px;
 	font-weight: 500;
 	font-size: 14px;
@@ -1555,11 +1555,10 @@ dd {
 	.info-item {
 		display: flex;
 		flex-direction: column;
-		justify-content: centeri;
+		justify-content: center;
 		align-items: center;
-		gap: 12px;
-		padding-bottom: 0;
-		border-bottom: none;
+		gap: 14px;
+		padding-bottom: 20px;
 	}
 
 	dt {
