@@ -1175,6 +1175,10 @@ dd {
 	}
 }
 
+.sp-only {
+	display: none;
+}
+
 /* Mobile Styles */
 
 /* Mobile Navigation Style */
@@ -1803,5 +1807,12 @@ dd {
 	.other-work-card h3 {
 		font-size: 16px;
 		margin-bottom: 0;
+	}
+
+	.footer-navbar {
+		text-align: center;
+	}
+	.sp-only {
+		display: inline;
 	}
 }
